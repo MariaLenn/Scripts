@@ -1,0 +1,95 @@
+ 16:02:17 up  2:37,  1 user,  load average: 0,14, 0,05, 0,01
+root
+maria-te :0           :0               Sat May  7 13:25   still logged in
+reboot   system boot  5.13.0-27-generi Sat May  7 13:25   still running
+maria-te :0           :0               Thu May  5 21:02 - crash (1+16:22)
+reboot   system boot  5.13.0-27-generi Thu May  5 21:02   still running
+maria-te :0           :0               Thu May  5 17:51 - crash  (03:10)
+reboot   system boot  5.13.0-27-generi Thu May  5 17:48   still running
+maria-te :0           :0               Fri Feb 11 15:32 - down   (02:11)
+reboot   system boot  5.13.0-27-generi Fri Feb 11 15:32 - 17:44  (02:11)
+maria-te :0           :0               Wed Feb  9 16:10 - down   (00:21)
+reboot   system boot  5.13.0-27-generi Wed Feb  9 16:08 - 16:32  (00:23)
+maria-te :0           :0               Wed Feb  9 13:22 - down   (02:45)
+reboot   system boot  5.13.0-27-generi Wed Feb  9 13:21 - 16:08  (02:46)
+maria-te :0           :0               Thu Jan 27 18:04 - down   (00:35)
+reboot   system boot  5.13.0-27-generi Thu Jan 27 18:03 - 18:39  (00:36)
+maria-te :0           :0               Thu Jan 27 17:25 - down   (00:26)
+reboot   system boot  5.13.0-27-generi Thu Jan 27 17:25 - 17:52  (00:26)
+maria-te :0           :0               Mon Jan 24 15:29 - down   (00:31)
+reboot   system boot  5.13.0-27-generi Mon Jan 24 15:29 - 16:00  (00:31)
+maria-te :0           :0               Mon Jan 24 00:26 - down   (00:45)
+reboot   system boot  5.13.0-27-generi Sun Jan 23 23:12 - 01:11  (01:58)
+
+wtmp begins Sun Jan 23 23:12:39 2022
+    PID USER        PPID CMD                         %MEM %CPU
+   1570 maria-t+    1319 /usr/bin/gnome-shell        18.9  1.8
+   1378 maria-t+    1376 /usr/lib/xorg/Xorg vt2 -dis  2.2  0.5
+   1883 maria-t+    1319 /usr/libexec/gnome-terminal  2.2  0.3
+      1 root           0 /lib/systemd/systemd --syst  0.8  0.1
+    624 message+       1 /usr/bin/dbus-daemon --syst  0.4  0.1
+    628 root           1 /usr/sbin/NetworkManager --  0.8  0.1
+  83548 root           2 [kworker/1:0-events]         0.0  0.1
+      2 root           0 [kthreadd]                   0.0  0.0
+      3 root           2 [rcu_gp]                     0.0  0.0
+      4 root           2 [rcu_par_gp]                 0.0  0.0
+Netid   State    Recv-Q   Send-Q     Local Address:Port      Peer Address:Port  Process                                                                         
+udp     UNCONN   0        0                0.0.0.0:53458          0.0.0.0:*      users:(("openvpn",pid=80496,fd=6))                                             
+udp     UNCONN   0        0                0.0.0.0:5353           0.0.0.0:*      users:(("avahi-daemon",pid=621,fd=12))                                         
+udp     UNCONN   0        0                0.0.0.0:44444          0.0.0.0:*      users:(("avahi-daemon",pid=621,fd=14))                                         
+udp     UNCONN   0        0          127.0.0.53%lo:53             0.0.0.0:*      users:(("systemd-resolve",pid=9072,fd=12))                                     
+udp     UNCONN   0        0                0.0.0.0:631            0.0.0.0:*      users:(("cups-browsed",pid=710,fd=7))                                          
+udp     UNCONN   0        0                   [::]:5353              [::]:*      users:(("avahi-daemon",pid=621,fd=13))                                         
+udp     UNCONN   0        0                   [::]:41086             [::]:*      users:(("avahi-daemon",pid=621,fd=15))                                         
+tcp     LISTEN   0        4096       127.0.0.53%lo:53             0.0.0.0:*      users:(("systemd-resolve",pid=9072,fd=13))                                     
+tcp     LISTEN   0        5              127.0.0.1:631            0.0.0.0:*      users:(("cupsd",pid=623,fd=7))                                                 
+tcp     LISTEN   0        5                  [::1]:631               [::]:*      users:(("cupsd",pid=623,fd=6))                                                 
+       994588 K total memory
+       510524 K used memory
+       333672 K active memory
+       384892 K inactive memory
+        82088 K free memory
+        16064 K buffer memory
+       385912 K swap cache
+      1190340 K total swap
+       344608 K used swap
+       845732 K free swap
+       110858 non-nice user cpu ticks
+       139655 nice user cpu ticks
+        56352 system cpu ticks
+      1527828 idle cpu ticks
+        10381 IO-wait cpu ticks
+            0 IRQ cpu ticks
+         4226 softirq cpu ticks
+            0 stolen cpu ticks
+      5575317 pages paged in
+     12171109 pages paged out
+        78395 pages swapped in
+       172960 pages swapped out
+      6409997 interrupts
+      6326374 CPU context switches
+   1651919104 boot time
+        84346 forks
+Filesystem      Size  Used Avail Use% Mounted on
+udev            476M     0  476M   0% /dev
+tmpfs           102M  1,5M  101M   2% /run
+/dev/sda5        26G   12G   13G  49% /
+tmpfs           510M     0  510M   0% /dev/shm
+tmpfs           5,3M  4,1k  5,3M   1% /run/lock
+tmpfs           510M     0  510M   0% /sys/fs/cgroup
+/dev/loop0      132k  132k     0 100% /snap/bare/5
+/dev/loop1       59M   59M     0 100% /snap/core18/2284
+/dev/loop2       66M   66M     0 100% /snap/core20/1434
+/dev/loop3       59M   59M     0 100% /snap/core18/2344
+/dev/loop5      261M  261M     0 100% /snap/gnome-3-38-2004/99
+/dev/loop4       47M   47M     0 100% /snap/snapd/15534
+/dev/loop6       66M   66M     0 100% /snap/core20/1328
+/dev/loop7       57M   57M     0 100% /snap/snap-store/558
+/dev/loop8       69M   69M     0 100% /snap/gtk-common-themes/1515
+/dev/loop9      261M  261M     0 100% /snap/gnome-3-38-2004/87
+/dev/loop10      54M   54M     0 100% /snap/snap-store/547
+/dev/loop11      69M   69M     0 100% /snap/gtk-common-themes/1519
+/dev/loop12     230M  230M     0 100% /snap/gnome-3-34-1804/72
+/dev/loop13     230M  230M     0 100% /snap/gnome-3-34-1804/77
+/dev/sda1       536M  4,1k  536M   1% /boot/efi
+tmpfs           102M   25k  102M   1% /run/user/1000
